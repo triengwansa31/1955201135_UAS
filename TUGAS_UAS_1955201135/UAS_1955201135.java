@@ -260,7 +260,7 @@ public class UAS_1955201135 extends javax.swing.JFrame {
                             .addComponent(Outputnama, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(130, 130, 130)
+                        .addGap(127, 127, 127)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addContainerGap()
@@ -329,6 +329,7 @@ public class UAS_1955201135 extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0), null, null));
 
+        buttonGroup1.add(cukur);
         cukur.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cukur.setText("Cukur");
         cukur.addActionListener(new java.awt.event.ActionListener() {
@@ -337,6 +338,7 @@ public class UAS_1955201135 extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(cdk);
         cdk.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cdk.setText("Cukur Dan Keramas");
         cdk.addActionListener(new java.awt.event.ActionListener() {
@@ -345,6 +347,7 @@ public class UAS_1955201135 extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(cmpl);
         cmpl.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmpl.setText("Complete");
         cmpl.addActionListener(new java.awt.event.ActionListener() {
